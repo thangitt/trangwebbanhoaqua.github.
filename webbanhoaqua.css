@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    header{
+        background-color: white;
+        padding:20px;
+    }
+    .menu ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu{
+        background-color:#fff;
+    }
+    .menu li {
+        margin-right: 5px;
+        margin-top: 20px;
+    }
+    
+    .menu a {
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .menu li:hover {
+        background-color:#fff;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .menu img{
+        width:150px;
+        height:100px;
+    }
+    .section h2{
+        text-transform: uppercase;
+        text-align: center;
+        color: chocolate;
+        margin-bottom: 20px;
+    }
+    .name{
+        margin: 0px;        
+    }
+    .product p{
+        margin: 10px 0;
+    }
+    .product button{
+        background-color: #222;
+        color: #fff;
+        border: 1px solid gray;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+    .section form{
+        margin-left: 25%;
+    }
+    .section form input{
+        margin-left: 50px;
+        width: 300px;
+        height: 30px;
+        margin-top: 20px;
+    }
+    #email{
+        margin-left: 74px;
+    }
+    #message{
+        margin-left: 52px;
+    }
+    .section form button{
+        margin-top: 20px;
+        width: 50px;
+        height: 25px;
+        margin-left: 366px;
+    }
+    footer{
+        background-color: #222;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+        header{
+            padding: 10px;
+        }
+        mav ul{
+            flex-wrap: wrap;
+        }
+        nav li{
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        .products{
+            flex-wrap: wrap;
+        }
+        .product{
+            width: calc(100%/2 - 10px);
+            margin-bottom: 30px;
+        }
+        .product{
+            width: calc(100%/2 - 10px);
+            margin-bottom: 30px;
+        }
+        body{
+            font-family: "Open Sans", sans-serif;
+            font-size: 14px;
+            color:#111;
+            line-height: 1.15;
+        }
+    #wrapper{
+        max-width: 1170px;         
+        margin: 0 auto;
+    }
+    .headline{
+        text-align: center;
+        margin:40px 0px;
+    }
+    h3{
+        font-size: 18px;
+        font-weight: 600;
+        color:#111;
+        padding:10px 20px;
+        text-transform: uppercase;
+        border: 1px solid #bebebe;
+        display:inline-block;
+        color:#555
+        
+    }
+    .products {
+        text-align: center;
+    }
+    ul.products{
+        list-style: none;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    ul.products li {
+        flex-basis: 25%;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+    }
+    ul.products li img{
+        max-width: 100%;
+        height:auto;
+    }
+    ul.products li .product-top{
+        position: relative;
+        overflow:hidden;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    ul.products li .product-item{
+        border-radius: 20px;
+    }
+    ul.products li .product-top .product-thumb{
+        display:block;
+    }
+    ul.products li .product-top .product-thumb img{
+        display:block;
+        border-radius: 10px;
+    }
+    ul.products li .product-top a.buy-now{
+        text-orientation: uppercase;
+        text-decoration: none;
+        text-align: center;
+        display:block;
+        background-color: #446084;
+        color:#fff;
+        padding:10px 0px;
+        position:absolute;
+        width:100%;
+    }
+    ul.products li:hover{
+        bottom:0px;
+    }
+    ul.products li .product-info{
+        padding: 10px 0px;
+    }
+    ul.products li .product-info a{
+        display: block;
+        text-decoration: none;
+    }
+    ul.products li .product-info a.product-cat{
+        font-size: 11px;
+        text-transform: uppercase;
+        color: #9e9e9e;
+        padding:3px 0px;
+    }
+    ul.products li .product-info a.product-name{
+        color:#334862;
+        padding:3px 0px;
+    }
+    ul.products li .product-info .product-price{
+        color:#111;
+        padding:2px 0px;
+        font-weight: 600;
+    }
+    #logo{
+        width:20px;
+        height:20px;
+    }
+    .product-top img{
+        border-radius:auto;
+    }
